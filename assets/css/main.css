@@ -58,18 +58,25 @@ nav a{
     padding: 3px;
     border-radius: 8px;
 }
-
+#perfil h3{
+    color: rgb(0, 166, 255);
+}
 nav span a:hover{
     background-color: rgb(172, 172, 255);
 }
-
+.imagem{
+    display: flex;
+}
+.texto{
+    margin-left: 10px;
+}
 
 @media all and (min-width: 758px) {
 
     .container-fluid {
 
-        grid: "header header" auto
-              "nav nav" auto
+        grid: "nav nav" auto
+              "header header" auto
               "main main" 1fr
               "footer footer" auto / 2fr 10fr;
 
