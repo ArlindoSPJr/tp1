@@ -37,6 +37,7 @@ footer { grid-area: footer; }
 .nav{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .nav ul{
@@ -52,11 +53,11 @@ nav > span{
     
 }
 nav ul li a:hover{
-    background-color: rgb(172, 172, 255);
+    background-color: #AFC1B6;
 }
 nav a{
     text-decoration: none;
-    color: black;
+    color: #FFF;
     padding: 3px;
     border-radius: 8px;
 }
@@ -64,7 +65,7 @@ nav a{
     color: rgb(0, 166, 255);
 }
 nav span a:hover{
-    background-color: rgb(172, 172, 255);
+    background-color: #AFC1B6;
 }
 .imagem{
     display: flex;
@@ -72,6 +73,14 @@ nav span a:hover{
 .texto{
     margin-left: 10px;
 }
+.nav{
+    background-color: #648374;
+}
+.footer{
+    background-color: #648374;
+    color: #FFF;
+}
+
 
 @media all and (min-width: 758px) {
 
